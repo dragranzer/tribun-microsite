@@ -1,0 +1,15 @@
+.fot{
+    background-color: #02c9a8;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.content{
+    width: 30%;
+    display: flex;
+    margin: auto;
+    /* background-color: white; */
+    justify-content: center;
+    color: #fff;
+}

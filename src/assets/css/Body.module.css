@@ -1,0 +1,95 @@
+.body{
+    min-height: 700px;
+    max-height: auto;
+    width: 100%;
+    background-image: url('../img/bg.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skin{
+    width: 12%;
+    height: auto;
+}
+
+.billboard{
+    
+    width: 65%;
+    height: 40%;
+}
+
+.content{
+    width: 60%;
+    height: 10%;
+    margin-top: -340px;
+}
+
+.row1 img{
+    width: 49%;
+    height: auto;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.row2 img{
+    width: 32%;
+    height: auto;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigator{
+    display: flex;
+    width: 8%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .row1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .row2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .content{
+        width: 60%;
+        height: 10%;
+        margin-top: -100px;
+    }
+
+    .row1 img{
+        width: 49%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .row2 img{
+        width: 49%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
